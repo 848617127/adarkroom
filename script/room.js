@@ -51,7 +51,7 @@ var Room = {
 			cost: function() {
 				var n = $SM.get('game.buildings["hut"]', true);
 				return {
-					'wood': 100 + (n*50)
+					'wood': 1 + (n*5)
 				};
 			}
 		},
